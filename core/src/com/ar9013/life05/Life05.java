@@ -7,7 +7,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class Life05 implements ApplicationListener {
+public class Life05 extends ApplicationAdapter {
 	private String TAG = "Life05";
 	SpriteBatch batch;
 	Texture img;
